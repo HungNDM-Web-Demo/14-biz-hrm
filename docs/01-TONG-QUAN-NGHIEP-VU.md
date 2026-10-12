@@ -14,7 +14,7 @@
 | Loại sản phẩm | Web quản lý + giao diện điện thoại cho nhân viên |
 | Ý tưởng gốc | 5.2 · HRM: chấm công & tính lương (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -44,6 +44,7 @@
 | Area | Chức năng | Màn hình (route FE dự kiến) | Ưu tiên |
 | :--- | :--- | :--- | :---: |
 | `System` | Đăng nhập, tài khoản, vai trò, cài đặt | Có sẵn | — |
+| `Hr` | Tổng quan hôm nay; trang cá nhân nhân viên | `/dashboard` | P1 |
 | `Hr` | Nhân viên, phòng ban | `/employees`, `/departments` | P1 |
 | `Hr` | Ca làm | `/shifts` | P1 |
 | `Hr` | Chấm công | `/attendance` | P1 |
